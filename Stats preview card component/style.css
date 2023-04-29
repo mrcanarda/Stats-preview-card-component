@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;*/
+
+/* 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> 
+    */
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+.grid {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 1050px;
+  max-height: 750px;
+  padding: 20px 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 12px;
+}
+
+h2.header {
+  color: hsl(0, 0%, 100%);
+  padding: 50px 30px;
+  font-size: 35px;
+}
+
+.high {
+  color: hsl(277, 64%, 61%);
+}
+
+img.img {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-right: -19px;
+}
+
+p.article {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  margin-right: 80px;
+  padding-left: 30px;
+}
+
+.parag2 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+p.companies {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  /*text-transform: uppercase;*/
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p.companiess {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-left: 14px;
+}
+
+.one {
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+.two {
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+p.templates {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  /*text-transform: uppercase;*/
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p.templatess {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-left: 14px;
+}
+
+.drei {
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+p.queries {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  /*text-transform: uppercase;*/
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p.queriess {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  margin-top: 10px;
+  /*padding-left: 10px;*/
+  padding-left: 5px;
+}
